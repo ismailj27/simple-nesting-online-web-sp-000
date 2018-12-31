@@ -133,5 +133,5 @@ def adding_to_dennis
         
         dennis_languages = programmer_hash[:dennis_ritchie][:languages]
         dennis_languages.push("Assembly")
-        return programmer_hash[:dennis_ritchie][:languages]
+        return programmer_hash[:dennis_ritchie][:languages][0]
 end
